@@ -26,6 +26,6 @@ public class MyFirstClass {
 		driver.findElement(By.xpath("//input[@type='password']")).sendKeys("bb123456**");
 		Thread.sleep(3000);
 		driver.findElement(By.id("btn_login")).click();
-		
+		Thread.sleep(3000);
 	}
 }
