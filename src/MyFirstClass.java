@@ -27,5 +27,6 @@ public class MyFirstClass {
 		Thread.sleep(3000);
 		driver.findElement(By.id("btn_login")).click();
 		Thread.sleep(3000);
+		
 	}
 }
